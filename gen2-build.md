@@ -1,8 +1,10 @@
-Recipe for building Gen 2 Minibot
+# Building the Gen 2 Minibot
 
-Hardware
+Most of our team's gen2 Minibots will be built by refreshing an existing Classic Minibot. However, in case anyone wants to build their own from scratch, links are provided here for all the supplies.
 
-Chassis kit: 2WD base kit from Amazon
+## Hardware
+
+Chassis baseplate: from 2WD chassis kit such as https://www.amazon.ca/YIKESHU-Smart-Robot-Encoder-Battery/dp/B073VHQT6P
 
 Pi: Raspberry Pi 3 Model B+ or Raspberry Pi 4 Model B/1GB
 
@@ -16,11 +18,18 @@ Ultrasonic Sensor: any HC-SR04 will do, but these ones have built in JST connect
 
 18650 battery holder with switch: https://www.robotshop.com/ca/en/lipo-battery-holder-switch-18650.html
 
+Other stuff:
+- 1.25" rolling caster
+- 0.25" nylon spacers
+- M3 hardware, assorted (nuts, bolts, washers)
+- M3 nylon standoffs
+- 2 x 18650 batteries, 18650 battery charger
+- USB power bank
+- hair elastics
 
+## Software
 
-Software
-
-Raspberry Pi OS
+### Raspberry Pi OS
 
 Download latest "Raspberry Pi OS (32-bit) with desktop" OS image from https://www.raspberrypi.org/downloads/raspberry-pi-os/
 
@@ -32,5 +41,7 @@ Boot up the Pi using this microSD card.
 
 Open a terminal window and execute the following commands
 
-Install Merge Robotics Minibots software
+### Install Merge Robotics Minibots software
+
+install by cloning this repo
 
