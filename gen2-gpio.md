@@ -28,7 +28,7 @@ We need to allocate two GPIO inputs per encoder, that are not already in use by 
  Motor 3 Control + GPIO9 --21-|O O|-22-----GPIO25 Motor 2 Enable
  Motor 3 Control - GPIO11--23-|O O|-24-----GPIO8 Motor 4 Control +
                       GND--25-|O O|-26-----GPIO7 Motor 4 Control -
-          reserved ID_SD---27-|O O|-28-----ID_SC reserved
+                reserved---27-|O O|-28---reserved
 Ultrasonic Trigger GPIO5---29-|O.O|-30--GND
    Ultrasonic Echo GPIO6---31-|O O|-32-----GPIO12 Motor 4 Enable
     Back Arrow LED GPIO13--33-|O O|-34--GND
@@ -40,7 +40,7 @@ Ultrasonic Trigger GPIO5---29-|O.O|-30--GND
 ```
 Unfortunately this allocation leaves only GPIO20 and GPIO21 remaining, and uses up the serial and SPI pins as well.
 
-### Original GPIO Header Reference
+### Original Raspberry Pi 40-pin GPIO Header Reference
 
 ```
                             J8
