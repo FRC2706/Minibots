@@ -6,9 +6,9 @@ There are two versions of the Minibots:
 
 ## The Classic Minibot
 
-The "Classic", or O.G. minibots, were created using a Raspberry Pi, an L298 based motor controller (either the CamJam Edukit #3 drop-in board, or an external L298 board), and an HC-SR04 ultrasonic sensor in a custom-wired circuit board to handle the voltage conversion to Pi-safe levels (a resistor ladder). They use 4xAA batteries to power the motors, a USB power pack to power the Pi (either a Pi model 1B or a Pi model 3B+).
+The "Classic", or O.G. minibots, were created in 2016 using a Raspberry Pi, an L298 based motor controller (either the CamJam Edukit #3 drop-in board, or an external L298 board), and an HC-SR04 ultrasonic sensor in a custom-wired circuit board to handle the voltage conversion to Pi-safe levels (a resistor ladder). They use 4xAA batteries to power the motors, a USB power pack to power the Pi (either a Pi model 1B or a Pi model 3B+).
 
-The classic minibots are programmed in Python and have been used in our workshops at the Ottawa Public Library.
+The classic minibots are programmed in Python and have been used in our workshops at the Ottawa Public Library. Our workshop curriculum was based on the CamJam Edukit worksheets.
 
 ## The gen2 Minibot
 
