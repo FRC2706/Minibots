@@ -2,6 +2,22 @@ Recipe for building Gen 2 Minibot
 
 Hardware
 
+Chassis kit: 2WD base kit from Amazon
+
+Pi: Raspberry Pi 3 Model B+ or Raspberry Pi 4 Model B/1GB
+
+Motor Control Shield: 1x https://www.buyapi.ca/product/motor-shield-for-the-raspberry-pi/
+
+Motors: from chassis kit or 2x https://www.robotshop.com/ca/en/micro-6v-160rpm-1201-dc-geared-motor-encoder.html
+
+Wheels: from chassis kit or 2x https://www.buyapi.ca/product/thin-white-wheel-for-tt-dc-gearbox-motors-65mm-diameter/
+
+Ultrasonic Sensor: any HC-SR04 will do, but these ones have built in JST connectors: https://www.sunfounder.com/ultrasonic-module-hc-sr04-distance-sensor.html
+
+18650 battery holder with switch: https://www.robotshop.com/ca/en/lipo-battery-holder-switch-18650.html
+
+
+
 Software
 
 Raspberry Pi OS
