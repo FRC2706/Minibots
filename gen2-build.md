@@ -18,16 +18,19 @@ Wheels: from chassis kit or 2x https://www.buyapi.ca/product/thin-white-wheel-fo
 
 Ultrasonic Sensor: any HC-SR04 will do, but these ones have built in JST connectors: https://www.sunfounder.com/ultrasonic-module-hc-sr04-distance-sensor.html
 
+IR sensor: ?
+
 18650 battery holder with switch: https://www.robotshop.com/ca/en/lipo-battery-holder-switch-18650.html
 
 Other stuff:
 - 1.25" rolling caster
-- 0.25" nylon spacers
+- 0.25" nylon spacers (for the caster, to make the chassis level)
 - M3 hardware, assorted (nuts, bolts, washers)
-- M3 nylon standoffs
-- 2 x 18650 batteries, 18650 battery charger
+- M3 nylon standoffs for the Pi and motor shield
+- 2 x 18650 batteries
+- 18650 battery charger
 - USB power bank
-- hair elastics
+- hair elastics (to strap the USB power bank to the chassis)
 
 ## Software
 
