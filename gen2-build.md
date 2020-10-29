@@ -12,7 +12,7 @@ Pi: Raspberry Pi 3 Model B+ or Raspberry Pi 4 Model B/1GB
 
 Motor Control Shield: 1x https://www.buyapi.ca/product/motor-shield-for-the-raspberry-pi/
 
-Motors: from chassis kit or 2x https://www.robotshop.com/ca/en/micro-6v-160rpm-1201-dc-geared-motor-encoder.html
+Motors: "TT" motors from chassis kit or, if you want ones that have built-in quadrature encoders: 2x https://www.robotshop.com/ca/en/micro-6v-160rpm-1201-dc-geared-motor-encoder.html
 
 Wheels: from chassis kit or 2x https://www.buyapi.ca/product/thin-white-wheel-for-tt-dc-gearbox-motors-65mm-diameter/
 
