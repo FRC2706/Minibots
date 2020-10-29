@@ -4,7 +4,9 @@ Most of our team's gen2 Minibots will be built by refreshing an existing Classic
 
 ## Hardware
 
-Chassis baseplate: from 2WD chassis kit such as https://www.amazon.ca/YIKESHU-Smart-Robot-Encoder-Battery/dp/B073VHQT6P
+Chassis baseplate: make your own, or from a 2WD chassis kit such as https://www.amazon.ca/YIKESHU-Smart-Robot-Encoder-Battery/dp/B073VHQT6P
+
+If the included motor mounts are of the T-shaped acrylic variety, then you might need to also get the metal kind with the bolt threads on the bottom, so that the motor can be spaced out from the chassis to account for the protruding circuit board: https://www.banggood.com/4PCS-TT-Motor-Metal-Holder-Mount-For-DIY-Robot-Car-p-1611486.html
 
 Pi: Raspberry Pi 3 Model B+ or Raspberry Pi 4 Model B/1GB
 
@@ -40,6 +42,8 @@ Use Raspberry Pi Imager (https://www.raspberrypi.org/downloads/) to write this i
 Boot up the Pi using this microSD card.
 
 Open a terminal window and execute the following commands
+
+... sudo apt-get update/upgrade etc
 
 ### Install Merge Robotics Minibots software
 
