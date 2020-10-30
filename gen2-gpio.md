@@ -4,11 +4,9 @@
 
 SB Components MotorShield from https://www.buyapi.ca/product/motor-shield-for-the-raspberry-pi/
 
-The MotorShield provides fixed allocations for control of 4 motors, 4 LEDs, an HC-SR04 ultrasonic sensor, and 2 IR sensors.
+The MotorShield provides fixed GPIO allocations for control of 4 motors, 4 LEDs, one HC-SR04 ultrasonic sensor, and 2 IR sensors.
 
-2 rotary quadrature enocoders (left and right drivetrain motors) are powered by 3.3v.
-
-We need to allocate two GPIO inputs per encoder, that are not already in use by the MotorShield.
+The 2 rotary quadrature encoders (left and right drivetrain motors) are powered by 3.3v and their sensor outputs are directly connected to four GPIOs (two per motor). We have allocated these to GPIOs that were not already in use by the MotorShield.
 
 ### Gen2 Minibot GPIO Reference
 
@@ -38,7 +36,7 @@ Left Encoder B (green) GPIO3---5-|O O|--6--GND Right Encoder Gnd
                                  '---'
 
 ```
-Unfortunately this allocation leaves only GPIO20 and GPIO21 remaining, and uses up the serial and SPI pins as well.
+Unfortunately this allocation leaves only GPIO20 and GPIO21 remaining, and occupies the serial and SPI pins as well. 
 
 ### Original Raspberry Pi 40-pin GPIO Header Reference
 
