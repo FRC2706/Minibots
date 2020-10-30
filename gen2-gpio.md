@@ -6,24 +6,24 @@ SB Components MotorShield from https://www.buyapi.ca/product/motor-shield-for-th
 
 The MotorShield provides fixed allocations for control of 4 motors, 4 LEDs, an HC-SR04 ultrasonic sensor, and 2 IR sensors.
 
-2 rotary quadrature enocoders (left and right drivetrain motors)
+2 rotary quadrature enocoders (left and right drivetrain motors) are powered by 3.3v.
 
 We need to allocate two GPIO inputs per encoder, that are not already in use by the MotorShield.
 
 ### Gen2 Minibot GPIO Reference
 
 ```
-                               J8
+                                  J8
                                  .___.              
-                        +3V3---1-|O O|--2--+5V Left Encoder Vcc
- Left Encoder A (blue) GPIO2---3-|O O|--4--+5V Right Encoder Vcc
+       Left Encoder Vcc +3V3---1-|O O|--2--+5V 
+ Left Encoder A (blue) GPIO2---3-|O O|--4--+5V 
 Left Encoder B (green) GPIO3---5-|O O|--6--GND Right Encoder Gnd
          Sensor 1 Echo GPIO4---7-|O O|--8-----GPIO14 Right Encoder A (blue)
          Left Encoder Gnd GND--9-|O.O|-10-----GPIO15 Right Encoder B (green)
        Motor 1 Enable GPIO17--11-|O O|-12-----GPIO18 Sensor 2 Echo
     Motor 1 Control + GPIO27--13-|O O|-14--GND
     Motor 1 Control - GPIO22--15-|O O|-16-----GPIO23 Motor 2 Control +
-                        +3V3--17-|O O|-18-----GPIO24 Motor 2 Control -
+      Right Encoder Vcc +3V3--17-|O O|-18-----GPIO24 Motor 2 Control -
        Motor 3 Enable GPIO10--19-|O.O|-20--GND
     Motor 3 Control + GPIO9 --21-|O O|-22-----GPIO25 Motor 2 Enable
     Motor 3 Control - GPIO11--23-|O O|-24-----GPIO8 Motor 4 Control +
