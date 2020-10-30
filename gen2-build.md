@@ -42,13 +42,19 @@ Unzip the image file: 2020-08-20-raspios-buster-armhf.img
 
 Use Raspberry Pi Imager (https://www.raspberrypi.org/downloads/) to write this image to a microSD card (minimum 8 GB). (If needed, erase the previous contents of the SD card first)
 
+Connect the Pi to a wired LAN with internet access.
+
 Boot up the Pi using this microSD card.
 
 On first boot, follow the wizards to set up the location and time zone.
 
 Change the pi account password to "team2706".
 
-Follow the prompts to download and install software updates.
+Follow the prompts to download and install software updates. If not prompted, open a terminal window and execute the following commands:
+
+sudo apt-get update
+
+sudo apt-get upgrade
 
 ### Install Merge Robotics Minibots software
 
