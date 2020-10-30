@@ -54,12 +54,12 @@ On first boot, follow the first-time setup wizards to:
 
 If not prompted for software updates or if the Pi could not access the network on first-time boot, open a terminal window and execute the following commands:
 
-  sudo apt-get update
-  sudo apt-get upgrade
+    sudo apt-get update
+    sudo apt-get upgrade
 
 ### Install Merge Robotics Minibots software
 
 Open a terminal window and execute the following commands:
 
-git clone https://github.com/frc2706/Minibots.git
+    git clone https://github.com/frc2706/Minibots.git
 
