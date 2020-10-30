@@ -46,15 +46,16 @@ Connect the Pi to a wired LAN with internet access.
 
 Boot up the Pi using this microSD card.
 
-On first boot, follow the wizards to set up the location and time zone.
+On first boot, follow the first-time setup wizards to:
+- set up the location and time zone
+- change the pi account password to "team2706"
+- download and install software updates
+- restart
 
-Change the pi account password to "team2706".
+If not prompted for software updates or if the Pi could not access the network on first-time boot, open a terminal window and execute the following commands:
 
-Follow the prompts to download and install software updates. If not prompted, open a terminal window and execute the following commands:
-
-sudo apt-get update
-
-sudo apt-get upgrade
+  sudo apt-get update
+  sudo apt-get upgrade
 
 ### Install Merge Robotics Minibots software
 
