@@ -44,11 +44,15 @@ Use Raspberry Pi Imager (https://www.raspberrypi.org/downloads/) to write this i
 
 Boot up the Pi using this microSD card.
 
-Open a terminal window and execute the following commands
+On first boot, follow the wizards to set up the location and time zone.
 
-... sudo apt-get update/upgrade etc
+Change the pi account password to "team2706".
+
+Follow the prompts to download and install software updates.
 
 ### Install Merge Robotics Minibots software
 
-install by cloning this repo
+Open a terminal window and execute the following commands:
+
+git clone https://github.com/frc2706/Minibots.git
 
