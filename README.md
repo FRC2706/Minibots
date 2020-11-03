@@ -23,13 +23,12 @@ The gen2 minibots are the result of refreshing classic minibots as they age out.
 - software upgrade to Raspberry Pi OS "Buster"
 - a new control "hat" which integrates the motor controller, 4 discrete LED outputs, and built in HC-SR04 and IR sensor interfaces for simplified wiring
 - drive motors with built-in quadrature encoders for more advanced control capability
-- IR line detect sensors -- to be added?
+- 2 IR line detect sensors
+- HC-SR04 ultrasonic sensor
 - use of 18650 lithium ion batteries instead of AA's
-
-The intent is to develop software for the gen2 minibots in Python as well as Java.
 
 The intent of our minibots are to serve as:
 - an introductory platform for teaching programming workshops (e.g. at the library)
 - a training tool for our software students
 
-The minibots are relatively inexpensive (they cost about $100 each) and obviously much more portable than a full size FRC robot. Students could take these home to work with independently. While the coding style differs between minibots and FRC robots, the ability to learn basic programming and robotics concepts (including reading of sensors, encoders, and basic closed loop control) make these a useful tool for beginner to intermediate level learning.
+The minibots are relatively inexpensive (they cost under $100 each) and obviously much more portable than a full size FRC robot. Students could take these home to work with independently. While the coding style differs between minibots and FRC robots, the ability to learn basic programming and robotics concepts (including reading of sensors, encoders, and basic closed loop control) make these a useful tool for beginner to intermediate level learning.
