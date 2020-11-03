@@ -27,9 +27,9 @@ Other things you'll need that you probably already have:
 
 #### Upgrades for Advanced Functionality
 
-- Replace the kit motors with ones that have built-in encoders: add $22
-- Replace motor mounts if needed (see below): add $5
-- Replace the AA batteries with 18650 li-ion batteries, holder, and charger: about $25
+- Replace the kit motors with ones that have built-in encoders: add $25 including new metal motor mounts
+- Replace the AA batteries with 18650 li-ion batteries, holder, and charger: add about $25
+- Add a wireless game controller: ???
 
 ### Parts List
 
