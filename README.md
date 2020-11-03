@@ -18,17 +18,21 @@ The classic minibots are programmed in Python and have been used in our workshop
 
 ## The gen2 Minibot
 
-The gen2 minibots are the result of refreshing classic minibots as they age out. The first refresh was done in fall 2020. Features of the gen2 minibot:
-- hardware upgrade to Raspberry Pi model 3B+ or Pi model 4B
+The gen2 minibots are the result of refreshing classic minibots as they age out or need repairs. The first refresh was done in October 2020. Features of the gen2 minibot:
+- hardware upgrade to Raspberry Pi model 3B+
 - software upgrade to Raspberry Pi OS "Buster"
-- a new control "hat" which integrates the motor controller, 4 discrete LED outputs, and built in HC-SR04 and IR sensor interfaces for simplified wiring
-- drive motors with built-in quadrature encoders for more advanced control capability
-- 2 IR line detect sensors
-- HC-SR04 ultrasonic sensor
-- use of 18650 lithium ion batteries instead of AA's
+- a new control "hat" which integrates the motor controller, 4 LEDs, and built in ultrasonic and IR sensor interfaces with 3.3v levels for simplified wiring
+- new drive motors with built-in quadrature encoders for more advanced control capability
+- two IR line detection sensors
+- one HC-SR04 ultrasonic sensor in a new rigid mount
+- switch from AA batteries to 18650 lithium ion rechargeable batteries in a battery holder with an on/off switch
+
+## Teaching Goals
 
 The intent of our minibots are to serve as:
-- an introductory platform for teaching programming workshops (e.g. at the library)
-- a training tool for our software students
+- a platform for teaching introductory Python programming workshops (e.g. at the library)
+- a training tool for our robotics team students (who designed, assembled, and wired them, created the curriculum slides, the workshop code, and regularly present these workshops)
+- a fun demo at team STEM outreach events such as Raspberry Pi Jam and Maker Faire
+- an independent learning tool for our robotics team software students when the Covid-19 pandemic prevented us from meeting in person.
 
 The minibots are relatively inexpensive (they cost under $100 each) and obviously much more portable than a full size FRC robot. Students could take these home to work with independently. While the coding style differs between minibots and FRC robots, the ability to learn basic programming and robotics concepts (including reading of sensors, encoders, and basic closed loop control) make these a useful tool for beginner to intermediate level learning.
