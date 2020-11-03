@@ -14,7 +14,7 @@ Motor Control Shield: https://www.buyapi.ca/product/motor-shield-for-the-raspber
 
 Motors (2): "TT" motors from chassis kit or, if you want ones that have built-in quadrature encoders: https://www.robotshop.com/ca/en/micro-6v-160rpm-1201-dc-geared-motor-encoder.html
 
-Wheels (2): from chassis kit or https://www.buyapi.ca/product/thin-white-wheel-for-tt-dc-gearbox-motors-65mm-diameter/
+Wheels (2): from chassis kit or buy your own, you will also need a 1.25" rolling caster
 
 Ultrasonic Sensor: any HC-SR04 will do, but these ones have built in JST connectors: https://www.sunfounder.com/ultrasonic-module-hc-sr04-distance-sensor.html
 
@@ -23,7 +23,6 @@ IR sensors (2): KY-033, MJ5000, TCRT5000 or similar: https://www.amazon.ca/gp/pr
 18650 battery holder with switch: https://www.robotshop.com/ca/en/lipo-battery-holder-switch-18650.html
 
 Other stuff:
-- 1.25" rolling caster
 - 0.25" nylon spacers (for the caster, to make the chassis level)
 - M3 hardware, assorted (nuts, bolts, washers)
 - M3 nylon standoffs for the Pi and motor shield
