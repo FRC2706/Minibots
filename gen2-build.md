@@ -1,24 +1,24 @@
 # Building the Gen 2 Minibot
 
-Most of our team's gen2 Minibots will be built by refreshing an existing Classic Minibot. However, in case anyone wants to build their own from scratch, links are provided here for all the supplies.
+Most of our team's gen2 Minibots will be built by refreshing an existing Classic Minibot. However, for those who want to build their own from scratch, links are provided here for all the supplies we have used.
 
 ## Hardware
 
 Chassis baseplate: make your own, or from a 2WD chassis kit such as https://www.amazon.ca/YIKESHU-Smart-Robot-Encoder-Battery/dp/B073VHQT6P
 
-If the included motor mounts are of the T-shaped acrylic variety, then you might need to also get the metal kind with the bolt threads on the bottom, so that the motor can be spaced out from the chassis to account for the protruding circuit board: https://www.banggood.com/4PCS-TT-Motor-Metal-Holder-Mount-For-DIY-Robot-Car-p-1611486.html
+If the included motor mounts are of the T-shaped acrylic variety, then you may want to get the metal kind with the bolt threads on the bottom, so that the motor can be spaced out from the chassis to account for the protruding encoder circuit board: https://www.banggood.com/4PCS-TT-Motor-Metal-Holder-Mount-For-DIY-Robot-Car-p-1611486.html
 
 Pi: Raspberry Pi 3 Model B+ or Raspberry Pi 4 Model B/1GB
 
-Motor Control Shield: 1x https://www.buyapi.ca/product/motor-shield-for-the-raspberry-pi/
+Motor Control Shield: https://www.buyapi.ca/product/motor-shield-for-the-raspberry-pi/
 
-Motors: "TT" motors from chassis kit or, if you want ones that have built-in quadrature encoders: 2x https://www.robotshop.com/ca/en/micro-6v-160rpm-1201-dc-geared-motor-encoder.html
+Motors (2): "TT" motors from chassis kit or, if you want ones that have built-in quadrature encoders: https://www.robotshop.com/ca/en/micro-6v-160rpm-1201-dc-geared-motor-encoder.html
 
-Wheels: from chassis kit or 2x https://www.buyapi.ca/product/thin-white-wheel-for-tt-dc-gearbox-motors-65mm-diameter/
+Wheels (2): from chassis kit or https://www.buyapi.ca/product/thin-white-wheel-for-tt-dc-gearbox-motors-65mm-diameter/
 
 Ultrasonic Sensor: any HC-SR04 will do, but these ones have built in JST connectors: https://www.sunfounder.com/ultrasonic-module-hc-sr04-distance-sensor.html
 
-IR sensor: ?
+IR sensors (2): KY-033, MJ5000, TCRT5000 or similar: https://www.amazon.ca/gp/product/B08215B7TF/
 
 18650 battery holder with switch: https://www.robotshop.com/ca/en/lipo-battery-holder-switch-18650.html
 
@@ -27,9 +27,10 @@ Other stuff:
 - 0.25" nylon spacers (for the caster, to make the chassis level)
 - M3 hardware, assorted (nuts, bolts, washers)
 - M3 nylon standoffs for the Pi and motor shield
+- wire and female Dupont connector crimps
 - 2 x 18650 batteries
 - 18650 battery charger
-- USB power bank
+- USB power bank and micro USB cable
 - hair elastics (to strap the USB power bank to the chassis)
 
 ## Software
