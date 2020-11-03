@@ -9,14 +9,21 @@ Most of our team's gen2 Minibots will be built by refreshing an existing Classic
 
 #### The Basic Kit
 
-The basic Gen 2 Minibot costs about $94 (as of November 2020, excluding taxes and shipping).
+The basic Gen 2 Minibot costs about $100 (as of November 2020, excluding taxes and shipping).
 
 - Raspberry Pi: $48.95
+- 8 to 16 GB microSD card: about $5
 - 2WD Chassis Kit: $18.99
 - Motor Control Shield: $15.95
-- Sensors: about $10 (one ultrasonic sensor, two IR sensors)
+- Sensors: about $10 (one ultrasonic sensor, two IR sensors, and mounts)
 
-Other things you'll need that you probably already have: USB power bank, micro USB cable, 4 AA batteries, HDMI cable, monitor, keyboard, mouse, 20 AWG wire, hair elastic
+Other things you'll need that you probably already have: 
+- USB power bank 
+- micro USB cable
+- 4 AA batteries
+- HDMI cable and monitor
+- USB keyboard and mouse
+- hair elastic
 
 #### Upgrades for Advanced Functionality
 
@@ -26,29 +33,33 @@ Other things you'll need that you probably already have: USB power bank, micro U
 
 ### Parts List
 
-2WD robot chassis kit: https://www.amazon.ca/YIKESHU-Smart-Robot-Encoder-Battery/dp/B073VHQT6P
+2WD robot chassis kit: such as https://www.amazon.ca/YIKESHU-Smart-Robot-Encoder-Battery/dp/B073VHQT6P
 
 Raspberry Pi: Raspberry Pi 3 Model B+: https://www.buyapi.ca/product/raspberry-pi-3-model-b-plus/
 
-Motor Control Shield: https://www.buyapi.ca/product/motor-shield-for-the-raspberry-pi/
+8 to 16 GB micro SD card: such as: https://www.amazon.ca/Gigastone-5-Pack-Surveillance-Security-Professional/dp/B0876H3YBQ/
 
-Motors (2): from chassis kit or, upgraded motors that have built-in quadrature encoders: https://www.robotshop.com/ca/en/micro-6v-160rpm-1201-dc-geared-motor-encoder.html
+SB Components Motor Control Shield: https://www.buyapi.ca/product/motor-shield-for-the-raspberry-pi/
 
-Upgraded motor mounts: If the included motor mounts are of the T-shaped acrylic variety, replace with metal mounts so that the motor can be spaced out from the chassis to account for the protruding encoder circuit board: https://www.banggood.com/4PCS-TT-Motor-Metal-Holder-Mount-For-DIY-Robot-Car-p-1611486.html
+Motors (2): from chassis kit or, upgrade to motors that have built-in quadrature encoders: https://www.robotshop.com/ca/en/micro-6v-160rpm-1201-dc-geared-motor-encoder.html
+
+Upgraded motor mounts: If the kit motor mounts are made of T-shaped acrylic variety, replace with metal mounts so that the motor can be spaced out from the chassis to account for the protruding encoder circuit board: https://www.banggood.com/4PCS-TT-Motor-Metal-Holder-Mount-For-DIY-Robot-Car-p-1611486.html
 
 Ultrasonic Sensor: any HC-SR04 will do, but these ones have built in JST connectors: https://www.sunfounder.com/ultrasonic-module-hc-sr04-distance-sensor.html
+
+Ultrasonic Sensor mount: 3D print your own, or buy these: https://www.amazon.ca/gp/product/B07HQGSYJ5/
 
 IR sensors (2): KY-033, MJ5000, TCRT5000 or similar: https://www.amazon.ca/gp/product/B08215B7TF/
 
 18650 battery holder with switch: https://www.robotshop.com/ca/en/lipo-battery-holder-switch-18650.html
 
-18650 batteries (2): pick your source, i.e. from https://www.amazon.ca/s?k=18650+batteries&ref=nb_sb_noss_2
+18650 batteries (2): such as from https://www.amazon.ca/s?k=18650+batteries&ref=nb_sb_noss_2
 
 18650 battery charger: https://www.robotshop.com/ca/en/42v-18650-lithium-battery-charger-us-plug.html
 
 Other stuff:
 - M3 hardware, assorted (nuts, bolts, washers)
-- M3 nylon standoffs for the Pi and motor shield
+- M3 nylon standoffs for the Pi, motor control shield, and IR sensors
 - wire and female Dupont connector crimps
 - USB power bank and micro USB cable
 - hair elastics (to strap the USB power bank to the chassis)
@@ -65,7 +76,7 @@ Use Raspberry Pi Imager (https://www.raspberrypi.org/downloads/) to write this i
 
 Connect the Pi to a wired LAN with internet access.
 
-Boot up the Pi using this microSD card.
+After verifying that all electrical connections are wired correctly, connect the Pi to a monitor and keyboard and boot up the Pi using this microSD card. We recommend using a wired power supply for initial bootup instead of the USB power bank.
 
 On first boot, follow the first-time setup wizards to:
 - set up the location and time zone
@@ -84,3 +95,6 @@ Open a terminal window and execute the following commands:
 
     git clone https://github.com/frc2706/Minibots.git
 
+### Test
+
+That's it! Time to test out your minibot.
