@@ -2,7 +2,28 @@
 
 Most of our team's gen2 Minibots will be built by refreshing an existing Classic Minibot. However, for those who want to build their own from scratch, links are provided here for all the supplies we have used.
 
+
 ## Hardware
+
+### Cost
+
+#### The Basic Kit
+
+The basic Gen 2 Minibot costs $x (as of November 2020, excluding taxes and shipping).
+
+- Raspberry Pi: $48.95
+- 2WD Chassis Kit: $18.99
+- Motor Control Shield: $15.95
+- Sensors: about $10 (one ultrasonic sensor, two IR sensors)
+
+Other things you'll need that you might already have: USB power bank, micro USB cable, 4 AA batteries, HDMI cable, monitor, keyboard, mouse, 20 AWG wire, hair elastic
+
+#### Upgrades for Advanced Functionality
+
+- Replace the kit mtors with ones that have built-in encoders: add $21.30
+- Replace the AA batteries with 18650 li-ion batteries and charger: about $25
+
+### Parts List
 
 Chassis baseplate: make your own, or from a 2WD chassis kit such as https://www.amazon.ca/YIKESHU-Smart-Robot-Encoder-Battery/dp/B073VHQT6P
 
@@ -32,25 +53,7 @@ Other stuff:
 - USB power bank and micro USB cable
 - hair elastics (to strap the USB power bank to the chassis)
 
-## Cost
-
-### The Basic Kit
-
-The basic Gen 2 Minibot costs $x (as of November 2020, excluding taxes and shipping).
-
-- Raspberry Pi: $48.95
-- 2WD Chassis Kit: $18.99
-- Motor Control Shield: $15.95
-- Sensors: about $10 (one ultrasonic sensor, two IR sensors)
-
-Other things you'll need that you might already have: USB power bank, micro USB cable, 4 AA batteries, HDMI cable, monitor, keyboard, mouse, 20 AWG wire, hair elastic
-
-### Upgrades for Advanced Functionality
-
-- Replace the kit mtors with ones that have built-in encoders: add $21.30
-- Replace the AA batteries with 18650 li-ion batteries and charger: about $25
-
-## Software Setup
+## Software
 
 ### Raspberry Pi OS
 
