@@ -42,7 +42,7 @@ IR sensors (2): KY-033, MJ5000, TCRT5000 or similar: https://www.amazon.ca/gp/pr
 
 18650 battery holder with switch: https://www.robotshop.com/ca/en/lipo-battery-holder-switch-18650.html
 
-18650 batteries: https://www.amazon.ca/s?k=18650+batteries&ref=nb_sb_noss_2
+18650 batteries (2): pick your source, i.e. from https://www.amazon.ca/s?k=18650+batteries&ref=nb_sb_noss_2
 
 18650 battery charger: https://www.robotshop.com/ca/en/42v-18650-lithium-battery-charger-us-plug.html
 
