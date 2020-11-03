@@ -8,7 +8,7 @@ Chassis baseplate: make your own, or from a 2WD chassis kit such as https://www.
 
 If the included motor mounts are of the T-shaped acrylic variety, then you may want to get the metal kind with the bolt threads on the bottom, so that the motor can be spaced out from the chassis to account for the protruding encoder circuit board: https://www.banggood.com/4PCS-TT-Motor-Metal-Holder-Mount-For-DIY-Robot-Car-p-1611486.html
 
-Pi: Raspberry Pi 3 Model B+ (or Raspberry Pi 4 Model B/1GB, but those require extra HDMI dongles)
+Pi: Raspberry Pi 3 Model B+ (or Raspberry Pi 4 Model B/1GB, but those require extra HDMI dongles): https://www.buyapi.ca/product/raspberry-pi-3-model-b-plus/
 
 Motor Control Shield: https://www.buyapi.ca/product/motor-shield-for-the-raspberry-pi/
 
