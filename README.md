@@ -26,6 +26,7 @@ The gen2 minibots are the result of refreshing classic minibots as they age out 
 - two IR line detection sensors
 - one HC-SR04 ultrasonic sensor in a new rigid mount
 - switch from AA batteries to 18650 lithium ion rechargeable batteries in a battery holder with an on/off switch
+- consistent GPIO assignments and wiring between all minibots (since we standardized on the controller hat)
 
 ## Teaching Goals
 
