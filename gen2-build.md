@@ -34,6 +34,8 @@ Other stuff:
 
 ## Cost
 
+### The Basic Kit
+
 The basic Gen 2 Minibot costs $x (as of November 2020, excluding taxes and shipping).
 
 - Raspberry Pi: $48.95
@@ -43,10 +45,10 @@ The basic Gen 2 Minibot costs $x (as of November 2020, excluding taxes and shipp
 
 Other things you'll need that you might already have: USB power bank, micro USB cable, 4 AA batteries, HDMI cable, monitor, keyboard, mouse, 20 AWG wire, hair elastic
 
-The more advanced Gen 2 Minibot adds to the capabilities of the basic minibot by adding:
+### Upgrades for Advanced Functionality
 
-- Motors with built-in encoders: $21.30
-- 18650 batteries and charger instead of AA's: about $25
+- Replace the kit mtors with ones that have built-in encoders: add $21.30
+- Replace the AA batteries with 18650 li-ion batteries and charger: about $25
 
 ## Software Setup
 
