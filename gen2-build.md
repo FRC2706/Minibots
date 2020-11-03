@@ -33,7 +33,23 @@ Other stuff:
 - USB power bank and micro USB cable
 - hair elastics (to strap the USB power bank to the chassis)
 
-## Software
+## Cost
+
+The basic Gen 2 Minibot costs $x (as of November 2020, excluding taxes and shipping).
+
+- Raspberry Pi: $48.95
+- 2WD Chassis Kit: $18.99
+- Motor Control Shield: $15.95
+- Sensors: about $10 (one ultrasonic sensor, two IR sensors)
+
+Other things you'll need that you might already have: USB power bank, micro USB cable, 4 AA batteries, HDMI cable, monitor, keyboard, mouse, 20 AWG wire, hair elastic
+
+The more advanced Gen 2 Minibot adds to the capabilities of the basic minibot by adding:
+
+- Motors with built-in encoders: $21.30
+- 18650 batteries and charger instead of AA's: about $25
+
+## Software Setup
 
 ### Raspberry Pi OS
 
