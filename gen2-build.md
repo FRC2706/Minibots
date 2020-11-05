@@ -18,14 +18,18 @@ The basic Gen 2 Minibot costs about $100 (as of November 2020, excluding taxes a
 - Sensors: about $10
   - one HC-SR04 ultrasonic sensor such as https://www.sunfounder.com/ultrasonic-module-hc-sr04-distance-sensor.html
   - two IR sensors, KY-033, MJ5000, TCRT5000 or similar: https://www.amazon.ca/gp/product/B08215B7TF/
-  
+- miscellaneous hardware:
+  - M3 hardware, assorted (nuts, bolts, washers)
+  - M3 nylon standoffs for the Pi, motor control shield, and IR sensors
+  - 20 AWG wire and female Dupont connector crimps
+
 Other things you'll need that you probably already have: 
 - USB power bank 
 - micro USB cable
 - 4 AA batteries
 - HDMI cable and monitor
 - USB keyboard and mouse
-- hair elastic
+- hair elastics (to strap the USB power bank to the chassis)
 
 #### Upgrades for Advanced Functionality
 
@@ -38,13 +42,6 @@ Other things you'll need that you probably already have:
   - 18650 battery charger: https://www.robotshop.com/ca/en/42v-18650-lithium-battery-charger-us-plug.html
 - fancy-dancy ultrasonic sensor mounts:  https://www.amazon.ca/gp/product/B07HQGSYJ5/ (or 3D print something)
 - Add a wireless game controller: ???
-
-### Other Parts
-- M3 hardware, assorted (nuts, bolts, washers)
-- M3 nylon standoffs for the Pi, motor control shield, and IR sensors
-- 20 AWG wire and female Dupont connector crimps
-- USB power bank and micro USB cable
-- hair elastics (to strap the USB power bank to the chassis)
 
 ## Software
 
