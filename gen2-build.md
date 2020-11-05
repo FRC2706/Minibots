@@ -11,10 +11,10 @@ Most of our team's gen2 Minibots will be built by refreshing an existing Classic
 
 The basic Gen 2 Minibot costs about $100 (as of November 2020, excluding taxes and shipping).
 
-- Raspberry Pi: $48.95
+- Raspberry Pi 3 Model B+: $48.95 from https://www.buyapi.ca/product/raspberry-pi-3-model-b-plus/
 - 8 to 16 GB microSD card: about $5
-- 2WD Chassis Kit: $18.99
-- Motor Control Shield: $15.95
+- 2WD Chassis Kit: $18.99 from https://www.amazon.ca/YIKESHU-Smart-Robot-Encoder-Battery/dp/B073VHQT6P
+- Motor Control Shield: $15.95 from https://www.buyapi.ca/product/motor-shield-for-the-raspberry-pi/
 - Sensors: about $10 (one ultrasonic sensor, two IR sensors, and mounts)
 
 Other things you'll need that you probably already have: 
@@ -27,23 +27,13 @@ Other things you'll need that you probably already have:
 
 #### Upgrades for Advanced Functionality
 
-- Replace the kit motors with ones that have built-in encoders: add $25 including new metal motor mounts
+- Replace the two kit motors with ones that have built-in quadrature encoders: add $22 from https://www.robotshop.com/ca/en/micro-6v-160rpm-1201-dc-geared-motor-encoder.html
+  - if needed, buy new metal motor mounts so that the motor can be spaced out from the chassis to account for the protruding encoder circuit board: https://www.banggood.com/4PCS-TT-Motor-Metal-Holder-Mount-For-DIY-Robot-Car-p-1611486.html
+
 - Replace the AA batteries with 18650 li-ion batteries, holder, and charger: add about $25
 - Add a wireless game controller: ???
 
 ### Parts List
-
-2WD robot chassis kit: such as https://www.amazon.ca/YIKESHU-Smart-Robot-Encoder-Battery/dp/B073VHQT6P
-
-Raspberry Pi: Raspberry Pi 3 Model B+: https://www.buyapi.ca/product/raspberry-pi-3-model-b-plus/
-
-8 to 16 GB micro SD card: such as: https://www.amazon.ca/Gigastone-5-Pack-Surveillance-Security-Professional/dp/B0876H3YBQ/
-
-SB Components Motor Control Shield: https://www.buyapi.ca/product/motor-shield-for-the-raspberry-pi/
-
-Motors (2): from chassis kit or, upgrade to motors that have built-in quadrature encoders: https://www.robotshop.com/ca/en/micro-6v-160rpm-1201-dc-geared-motor-encoder.html
-
-Upgraded motor mounts: If the kit motor mounts are made of T-shaped acrylic variety, replace with metal mounts so that the motor can be spaced out from the chassis to account for the protruding encoder circuit board: https://www.banggood.com/4PCS-TT-Motor-Metal-Holder-Mount-For-DIY-Robot-Car-p-1611486.html
 
 Ultrasonic Sensor: any HC-SR04 will do, but these ones have built in JST connectors: https://www.sunfounder.com/ultrasonic-module-hc-sr04-distance-sensor.html
 
