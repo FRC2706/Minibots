@@ -5,18 +5,20 @@ Most of our team's gen2 Minibots will be built by refreshing an existing Classic
 
 ## Hardware
 
-### Cost
+### Cost and Parts List
 
 #### The Basic Kit
 
 The basic Gen 2 Minibot costs about $100 (as of November 2020, excluding taxes and shipping).
 
 - Raspberry Pi 3 Model B+: $48.95 from https://www.buyapi.ca/product/raspberry-pi-3-model-b-plus/
-- 8 to 16 GB microSD card: about $5
+- 8 to 16 GB microSD card: about $5 from Walmart or Best Buy or Amazon
 - 2WD Chassis Kit: $18.99 from https://www.amazon.ca/YIKESHU-Smart-Robot-Encoder-Battery/dp/B073VHQT6P
-- Motor Control Shield: $15.95 from https://www.buyapi.ca/product/motor-shield-for-the-raspberry-pi/
-- Sensors: about $10 (one ultrasonic sensor, two IR sensors, and mounts)
-
+- SB Components Motor Control Shield: $15.95 from https://www.buyapi.ca/product/motor-shield-for-the-raspberry-pi/
+- Sensors: about $10
+  - one HC-SR04 ultrasonic sensor such as https://www.sunfounder.com/ultrasonic-module-hc-sr04-distance-sensor.html
+  - two IR sensors, KY-033, MJ5000, TCRT5000 or similar: https://www.amazon.ca/gp/product/B08215B7TF/
+  
 Other things you'll need that you probably already have: 
 - USB power bank 
 - micro USB cable
@@ -31,26 +33,16 @@ Other things you'll need that you probably already have:
   - if needed, buy new metal motor mounts so that the motor can be spaced out from the chassis to account for the protruding encoder circuit board: https://www.banggood.com/4PCS-TT-Motor-Metal-Holder-Mount-For-DIY-Robot-Car-p-1611486.html
 
 - Replace the AA batteries with 18650 li-ion batteries, holder, and charger: add about $25
+  - 18650 battery holder with switch: https://www.robotshop.com/ca/en/lipo-battery-holder-switch-18650.html
+  - 18650 batteries (2): such as from https://www.amazon.ca/s?k=18650+batteries&ref=nb_sb_noss_2
+  - 18650 battery charger: https://www.robotshop.com/ca/en/42v-18650-lithium-battery-charger-us-plug.html
+- fancy-dancy ultrasonic sensor mounts:  https://www.amazon.ca/gp/product/B07HQGSYJ5/ (or 3D print something)
 - Add a wireless game controller: ???
 
-### Parts List
-
-Ultrasonic Sensor: any HC-SR04 will do, but these ones have built in JST connectors: https://www.sunfounder.com/ultrasonic-module-hc-sr04-distance-sensor.html
-
-Ultrasonic Sensor mount: 3D print your own, or buy these: https://www.amazon.ca/gp/product/B07HQGSYJ5/
-
-IR sensors (2): KY-033, MJ5000, TCRT5000 or similar: https://www.amazon.ca/gp/product/B08215B7TF/
-
-18650 battery holder with switch: https://www.robotshop.com/ca/en/lipo-battery-holder-switch-18650.html
-
-18650 batteries (2): such as from https://www.amazon.ca/s?k=18650+batteries&ref=nb_sb_noss_2
-
-18650 battery charger: https://www.robotshop.com/ca/en/42v-18650-lithium-battery-charger-us-plug.html
-
-Other stuff:
+### Other Parts
 - M3 hardware, assorted (nuts, bolts, washers)
 - M3 nylon standoffs for the Pi, motor control shield, and IR sensors
-- wire and female Dupont connector crimps
+- 20 AWG wire and female Dupont connector crimps
 - USB power bank and micro USB cable
 - hair elastics (to strap the USB power bank to the chassis)
 
