@@ -8,6 +8,10 @@ The MotorShield provides fixed GPIO allocations for control of 4 motors, 4 LEDs,
 
 The 2 rotary quadrature encoders (left and right drivetrain motors) are powered by 3.3v and their sensor outputs are directly connected to four GPIOs (two per motor). We have allocated these to GPIOs that were not already in use by the MotorShield.
 
+## Drivetrain Motor Assignments
+
+For 2WD minibots, the left motor is wired as Motor 1, the right motor is wired as Motor 2.
+
 ### Gen2 Minibot GPIO Reference
 
 ```
