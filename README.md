@@ -6,15 +6,15 @@ There are two versions of the Minibots:
 
 ## The Classic Minibot
 
-The "Classic", or O.G. minibots, were created in 2016 and originally used a Raspberry Pi 1 model B and the CamJam Edukit #3 kit. The classic minibots feature:
+The "Classic", minibots, were created in 2016 and originally used a Raspberry Pi 1 model B and the CamJam Edukit #3 kit. The classic minibots feature:
 - either a Pi 1 model B or a Pi model 3B+
 - Raspbian Wheezy or Jessie
 - either the CamJam Edukit #3 motor controller hat or an L298N external control board
-- an HC-SR04 ultrasonic sensor with a voltage divider to drop the output from 5V to 3.3V
+- an HC-SR04 ultrasonic sensor with a voltage divider circuit to drop the output from 5V to 3.3V
 - 4xAA batteries to power the motors
-- a USB power pack to power the Pi
+- a USB power bank to power the Raspberry Pi
 
-The classic minibots are programmed in Python and have been used in our workshops at the Ottawa Public Library. Our workshop curriculum was based on the CamJam Edukit worksheets: https://camjam.me/?page_id=1035
+The classic minibots are programmed in Python and have been used in our workshops at the Ottawa Public Library. Our workshop curriculum was loosely based on the CamJam Edukit worksheets: https://camjam.me/?page_id=1035
 
 ## The gen2 Minibot
 
@@ -23,10 +23,10 @@ The gen2 minibots are the result of refreshing classic minibots as they age out 
 - software upgrade to Raspberry Pi OS "Buster"
 - a new control "hat" which integrates the motor controller, 4 LEDs, and built in ultrasonic and IR sensor interfaces with 3.3v levels for simplified wiring
 - new drive motors with built-in quadrature encoders for more advanced control capability
-- two IR line detection sensors
+- two infrared line detection sensors
 - one HC-SR04 ultrasonic sensor in a new rigid mount
 - switch from AA batteries to 18650 lithium ion rechargeable batteries in a battery holder with an on/off switch
-- consistent GPIO assignments and wiring between all minibots (since we standardized on the controller hat)
+- consistent GPIO assignments and wiring between all minibots (since we standardized on the controller hardware)
 
 ## Teaching Goals
 
