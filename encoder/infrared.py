@@ -3,10 +3,10 @@
 from RPi import GPIO
 from time import sleep
 
-GPIO.setmode(GPIO.BCM)
+GPIO.setmode(GPIO.BOARD)
 
-left_sensor = 11
-right_sensor = 9
+left_sensor = 7
+right_sensor = 12
 
 GPIO.setup(left_sensor, GPIO.IN)
 GPIO.setup(right_sensor, GPIO.IN)
@@ -14,11 +14,11 @@ GPIO.setup(right_sensor, GPIO.IN)
 try:
 	while True:
 		if not GPIO.input(left_sensor):
-			print("Robot is straying off to the right, move left captain!")
+			print("Left Sensor")
 		elif not GPIO.input(right_sensor):
-			print("Robot is straying off to the left, move right captain!")
+			print("Right Sensor")
 		else:
-			print("Following the line!")
+			print("No detection")
 		sleep(0.2)
 except:
 	GPIO.cleanup()
