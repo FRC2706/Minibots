@@ -10,7 +10,7 @@ The 2 rotary quadrature encoders (left and right drivetrain motors) are powered 
 
 ## Drivetrain Motor Assignments
 
-For 2WD minibots, the left motor is wired as Motor 1, the right motor is wired as Motor 2.
+For 2WD minibots, the right motor is wired as Motor 1, the left motor is wired as Motor 2.
 
 ### Gen2 Minibot GPIO Reference
 
